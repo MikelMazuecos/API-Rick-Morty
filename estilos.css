@@ -1,0 +1,33 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#main > div{
+    border: black 4px solid;
+    background-color: black;
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color:purple;
+}
+
+#botonMasResultados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+button{
+    font-size: x-large;
+}
+
+
