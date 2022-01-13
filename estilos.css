@@ -1,3 +1,6 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
 #main{
     display: flex;
     flex-direction: row;
@@ -19,6 +22,10 @@ body{
     background-color:purple;
 }
 
+button{
+    font-size: x-large;
+}
+
 #botonMasResultados{
     display: flex;
     align-items: center;
@@ -26,8 +33,9 @@ body{
     padding: 20px;
 }
 
-button{
-    font-size: x-large;
+#buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
-
-
